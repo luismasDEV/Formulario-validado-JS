@@ -1,0 +1,86 @@
+*{
+margin:0;padding:0;
+}
+body{
+background:#C0C0C0;
+}
+h1{
+	font-size: 1.5em;
+	text-align: center;
+	color:#310430;
+}
+#contenedor{
+background:transparent;
+margin:0 auto;
+width:96%;
+}
+#contenedor form fieldset{
+border: 2px solid #FA5E1B;
+padding:5px;
+font-size:20px;
+}
+#contenedor form{
+padding:10px;
+margin:10px 30px;
+border:thin solid #E9E9E9;
+border-radius:20px;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+-o-border-radius:20px;
+-ms-border-radius:20px;
+}
+#contenedor form label{
+	color:#004040;
+	font-size:18px;
+}
+#contenedor form label:hover{
+	color:#171717;
+	cursor:pointer;
+}
+#contenedor form input[type="text"]{
+	width:400px;
+	height:35px;
+	padding-left:5px;
+	font-family:Helvetica;
+	font-size:16px;
+}
+#contenedor form textarea{
+	resize:none;
+	padding:5px;
+}
+#contenedor form input[type="text"], textarea{
+background: #94CFA3;
+}
+
+#contenedor form input[type="text"]:focus, #contenedor form textarea:focus{
+background: #83CA8E;
+outline-color: #008A45;
+}
+#contenedor form input[type="text"]:active, #contenedor form textarea:active{
+background: #6CAEF7;
+outline-color: #008A45;
+}
+#contenedor form .canbio{
+transition:all 1s ease-in-out;
+-webkit-transition:all 1s ease-in-out;
+-moz-transition:all 1s ease-in-out;
+-ms-transition:all 1s ease-in-out;
+-o-transition:all 1s ease-in-out;
+}
+#contenedor form button{
+background:#FF8000;
+border-radius:5px;
+color:white;
+padding:10px 20px;
+border:2px solid white;
+}
+#contenedor form button:hover
+{
+	color:black;
+	cursor:pointer;
+}
+footer{
+	background: #272727;
+	text-align: center;
+	padding: 20px 2%;
+}

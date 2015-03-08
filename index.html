@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Este es un formulario simple v&aacute;lidado en el Font-End con JavaScript">
+	<meta name="keywords" content="Formulario, validacion con JavaScript, etc.">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/estilo.css" />	
+</head>
+<body>
+	<section id="contenedor">
+		<h1>Validaci&oacute;n de un formulario con JS en el Front-End</h1>
+		<form action="" id="formulario" name="formulario">
+			<fieldset>
+		    <legend>Tus datos:</legend>
+				<label for="nombres">Nombres y Apellidos:</label><br/>
+				<input type="text"  name="nombres" id="nombres"/><br/>
+				
+				<label for="direccion">Direcci&oacute;n:</label><br/>
+				<input type="text"  name="direccion" id="direccion"/><br/>
+				
+				<label for="pais">Pa&iacute;s:</label><br/>
+				<input type="text"  name="pais" id="pais"/><br/>
+				
+				<label for="email">Email:</label><br/>
+				<input type="text"  name="email" id="email"/><br/>
+				
+				<label for="web-site">Pagina Web/Blogger:</label><br/>
+				<input type="text"  name="web-site" id="web-site"/><br/>
+				
+				<label for="telefono">Tel&eacute;fono/Celular:</label><br/>
+				<input type="text"  name="telefono" id="telefono"/><br/>
+			</fieldset>
+				<br/>
+				<label for="comentario">Escribe tu comentario:</label><br/>
+				<textarea name="comentario" id="comentario" cols="70" rows="10" maxlength="1000" onkeypress="calcular()" onkeyup="calcular()"></textarea><br/>
+				<p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
+				<br/>
+				<br />
+				<button type="button" name="enviar" id="enviar" class="canbio">Enviar</button>&nbsp;&nbsp;&nbsp;<button type="button" id="limpiar" name="limpiar" class="canbio">Limpiar Formulario</button>
+		</form>
+	</section>
+	<footer>
+	(c) Luis Rene Mas Mas
+	<p>Correo electronico: 01luisrene@gmail.com</p>
+	<address>
+	<p>Direcci&oacute;n:La Libertad/Trujillo/La Esperanza - Parque Industrial
+	</address>
+	</footer>
+	<!--Es recomendable llamar a los script JS al final de la página y con la propiedad async-->
+	<script async type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
